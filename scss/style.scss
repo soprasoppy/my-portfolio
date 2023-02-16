@@ -312,3 +312,111 @@ footer {
     }
 
 }
+
+/* services styling */
+.services {
+    color: white;
+    background: black;
+    background: url("images/leaves_bushes_green_174515_3840x2400.jpg");
+    background-size: 2000px;
+
+    .title::before {
+        background: white;
+    }
+
+    .title::after {
+        background: black;
+        // content: "What I provide";
+    }
+
+    .serv-content {
+
+        .card {
+            width: 400px;
+            text-align: center;
+            background: none;
+            border-radius: 6px;
+            padding: 20px 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+
+            .box {
+                transition: all 0.3s ease;
+            }
+
+            i {
+                font-size: 50px;
+                color: #23b410;
+                transition: color 0.3s ease;
+            }
+
+            .text {
+                font-size: 25px;
+                font-weight: 500;
+                margin: 10px 0 7px 0;
+            }
+        }
+
+        .card:hover {
+            background: none;
+
+            .box {
+                transform: scale(1.05);
+            }
+
+            i {
+                color: #23b410;
+            }
+        }
+    }
+}
+
+
+/* Skills Section Styling */
+
+.skills {
+    background: url("/images/leaves_bushes_green_174515_3840x2400.jpg");
+    background-size: 2000px;
+
+    .title::after {
+        content: "Qu'est-ce que je sais faire";
+    }
+
+    .skills-content {
+        .column {
+            width: calc(50% - 30px);
+        }
+
+        .left {
+            .text {
+                color: white;
+                font-size: 25px;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+            .paragraph-2, ul, li {
+                font-size: 17px;
+                color: white;
+            }
+            .p {
+                text-align: justify;
+            }
+            a {
+                display: inline-block;
+                background: none;
+                color: #23b410;
+                margin-top: 20px;
+                font-size: 20px;
+                font-weight: 500;
+                padding: 5px 30px;
+                border-radius: 6px;
+                border: 2px solid #23b410;
+                transition: all 0.3s ease;
+            }
+            a:hover {
+                color: white;
+            }
+            
+        }
+    }
+}
