@@ -394,13 +394,18 @@ footer {
                 font-weight: 600;
                 margin-bottom: 10px;
             }
-            .paragraph-2, ul, li {
+
+            .paragraph-2,
+            ul,
+            li {
                 font-size: 17px;
                 color: white;
             }
+
             .p {
                 text-align: justify;
             }
+
             a {
                 display: inline-block;
                 background: none;
@@ -413,10 +418,67 @@ footer {
                 border: 2px solid #23b410;
                 transition: all 0.3s ease;
             }
+
             a:hover {
                 color: white;
             }
-            
+
         }
     }
 }
+
+//contact 
+.contact {
+    background: url("images/leaves_bushes_green_174515_3840x2400.jpg");
+    background-size: 2000px;
+
+    .title::after {
+        content: "Entrer en contact";
+    }
+
+    .contact-content {
+        .column {
+            width: calc(50% - 30px);
+        }
+
+        .text {
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .left {
+            p {
+                text-align: justify;
+            }
+            .paragraph-3 {
+                font-size: 18px;
+                color: white;
+            }
+            .icons {
+                margin: 10px 0;
+            }
+        }
+        .row {
+            display: flex;
+            height: 65px;
+            align-items: center;
+            .info {
+                margin-left: 30px;
+                .head {
+                    color: white;
+                    font-weight: 500;
+                }
+                .sub-title {
+                    color: white;
+                }
+            }
+            i {
+                font-size: 25px;
+                color: #23b410;
+            }
+        }
+    }
+}
+
