@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background: url("images/leaves_bushes_green_174515_3840x2400.jpg") no-repeat center;
+    background: url("/images/leaves_bushes_green_174515_3840x2400.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -43,7 +43,7 @@ body {
 
         &::before {
             content: '';
-            background: url("images/dark-green-leaves-background-hydrangea-260nw-1699508995.jpg");
+            background: url("/images/dark-green-leaves-background-hydrangea-260nw-1699508995.jpg");
             position: absolute;
             opacity: 1;
             top: -10px;
@@ -136,4 +136,48 @@ body {
     font-size: 30px;
     cursor: pointer;
     display: none;
+}
+
+// HOME
+
+.home {
+    display: flex;
+    background: url("/images/leaves_bushes_green_174515_3840x2400.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+
+    .max-width {
+        margin: auto 0 auto 40px;
+    }
+
+    .max-width .home-content {
+        padding-top: 220px;
+    }
+
+    .home-content {
+        .text-1 {
+            font-size: 27px;
+        }
+
+        .text-2 {
+            font-size: 75px;
+            font-weight: 600;
+            margin-left: -3px;
+        }
+
+        .text-3 {
+            font-size: 40px;
+            margin: 5px 0;
+        }
+
+        .text-3 span {
+            color: #25e70c;
+            font-weight: 500;
+        }
+    }
+
 }
